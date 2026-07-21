@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "HT Peminjaman",
+    "slug": "ht-peminjaman",
+    "scheme": "htpeminjaman",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.instansi.htpeminjaman"
+    },
+    "android": {
+      "package": "com.instansi.htpeminjaman",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Aplikasi membutuhkan akses kamera untuk memindai QR Code unit HT."
+        }
+      ],
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
